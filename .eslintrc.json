@@ -13,6 +13,7 @@
   },
   "rules": {
     "linebreak-style": ["error", "windows"],
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "import/no-extraneous-dependencies": "off"
   }
 }
