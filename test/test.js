@@ -1,4 +1,5 @@
 import { assert } from 'chai';
+import { multiply } from '../index.js';
 
 describe('Multiply function testing', () => {
   it('Failing multiply test', () => {
