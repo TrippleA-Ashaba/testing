@@ -9,4 +9,8 @@ describe('Multiply function testing', () => {
   it('Testing 2x2 ==4', () => {
     assert.equal(multiply(2, 2), 4);
   });
+
+  it('Testing 3x3 == 9', () => {
+    assert.equal(multiply(3, 3), 9);
+  });
 });
