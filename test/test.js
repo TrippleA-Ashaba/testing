@@ -1,3 +1,7 @@
 import { assert } from 'chai';
 
-assert.equal(1, 2);
+describe('Multiply function testing', () => {
+  it('Failing multiply test', () => {
+    assert.equal(multiply(1, 1), 1);
+  });
+});
