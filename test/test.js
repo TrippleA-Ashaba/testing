@@ -13,4 +13,8 @@ describe('Multiply function testing', () => {
   it('Testing 3x3 == 9', () => {
     assert.equal(multiply(3, 3), 9);
   });
+
+  it('Testing 4x4 == 4x4', () => {
+    assert.equal(multiply(4, 4), 4 * 4);
+  });
 });
