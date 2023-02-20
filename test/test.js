@@ -46,6 +46,6 @@ describe('Testing Factorial function', () => {
   });
 
   it('Testing 8.5! === Not a number', () => {
-    assert.isNotNumber(factorial(-7));
+    assert.equal(factorial(-7), 'N must be a positive integer');
   });
 });

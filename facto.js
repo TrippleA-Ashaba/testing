@@ -8,6 +8,8 @@ export default function factorial(n) {
   }
 }
 
+// console.log(typeof 1.7);/
+
 // export function factorial(number) {
 //   let fact = 1;
 //   let i = 1;
@@ -18,4 +20,4 @@ export default function factorial(n) {
 //   return fact;
 // }
 
-console.log(factorial(8.5));
+// console.log(factorial(8.5));
